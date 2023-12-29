@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4329ABE12B3F1AFC00CD0ED0 /* HomeTemp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4329ABE02B3F1AFC00CD0ED0 /* HomeTemp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4329ABE62B3F1AFC00CD0ED0 /* HomeTempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329ABE52B3F1AFC00CD0ED0 /* HomeTempApp.swift */; };
+		4329ABE82B3F1AFC00CD0ED0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329ABE72B3F1AFC00CD0ED0 /* ContentView.swift */; };
+		4329ABEA2B3F1AFE00CD0ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4329ABE92B3F1AFE00CD0ED0 /* Assets.xcassets */; };
+		4329ABED2B3F1AFE00CD0ED0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4329ABEC2B3F1AFE00CD0ED0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4329ABE22B3F1AFC00CD0ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4329ABD42B3F1AFB00CD0ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4329ABDF2B3F1AFC00CD0ED0;
+			remoteInfo = "HomeTemp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4329ABF32B3F1AFE00CD0ED0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4329ABE12B3F1AFC00CD0ED0 /* HomeTemp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4329ABDA2B3F1AFC00CD0ED0 /* HomeTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329ABE02B3F1AFC00CD0ED0 /* HomeTemp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeTemp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329ABE52B3F1AFC00CD0ED0 /* HomeTempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTempApp.swift; sourceTree = "<group>"; };
+		4329ABE72B3F1AFC00CD0ED0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4329ABE92B3F1AFE00CD0ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4329ABEC2B3F1AFE00CD0ED0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4329ABDD2B3F1AFC00CD0ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4329ABD32B3F1AFB00CD0ED0 = {
+			isa = PBXGroup;
+			children = (
+				4329ABE42B3F1AFC00CD0ED0 /* HomeTemp Watch App */,
+				4329ABDB2B3F1AFC00CD0ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4329ABDB2B3F1AFC00CD0ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4329ABDA2B3F1AFC00CD0ED0 /* HomeTemp.app */,
+				4329ABE02B3F1AFC00CD0ED0 /* HomeTemp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4329ABE42B3F1AFC00CD0ED0 /* HomeTemp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4329ABE52B3F1AFC00CD0ED0 /* HomeTempApp.swift */,
+				4329ABE72B3F1AFC00CD0ED0 /* ContentView.swift */,
+				4329ABE92B3F1AFE00CD0ED0 /* Assets.xcassets */,
+				4329ABEB2B3F1AFE00CD0ED0 /* Preview Content */,
+			);
+			path = "HomeTemp Watch App";
+			sourceTree = "<group>";
+		};
+		4329ABEB2B3F1AFE00CD0ED0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4329ABEC2B3F1AFE00CD0ED0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4329ABD92B3F1AFB00CD0ED0 /* HomeTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4329ABF42B3F1AFE00CD0ED0 /* Build configuration list for PBXNativeTarget "HomeTemp" */;
+			buildPhases = (
+				4329ABD82B3F1AFB00CD0ED0 /* Resources */,
+				4329ABF32B3F1AFE00CD0ED0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4329ABE32B3F1AFC00CD0ED0 /* PBXTargetDependency */,
+			);
+			name = HomeTemp;
+			productName = HomeTemp;
+			productReference = 4329ABDA2B3F1AFC00CD0ED0 /* HomeTemp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4329ABDF2B3F1AFC00CD0ED0 /* HomeTemp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4329ABF02B3F1AFE00CD0ED0 /* Build configuration list for PBXNativeTarget "HomeTemp Watch App" */;
+			buildPhases = (
+				4329ABDC2B3F1AFC00CD0ED0 /* Sources */,
+				4329ABDD2B3F1AFC00CD0ED0 /* Frameworks */,
+				4329ABDE2B3F1AFC00CD0ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeTemp Watch App";
+			productName = "HomeTemp Watch App";
+			productReference = 4329ABE02B3F1AFC00CD0ED0 /* HomeTemp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4329ABD42B3F1AFB00CD0ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4329ABD92B3F1AFB00CD0ED0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4329ABDF2B3F1AFC00CD0ED0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4329ABD72B3F1AFB00CD0ED0 /* Build configuration list for PBXProject "HomeTemp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4329ABD32B3F1AFB00CD0ED0;
+			productRefGroup = 4329ABDB2B3F1AFC00CD0ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4329ABD92B3F1AFB00CD0ED0 /* HomeTemp */,
+				4329ABDF2B3F1AFC00CD0ED0 /* HomeTemp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4329ABD82B3F1AFB00CD0ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4329ABDE2B3F1AFC00CD0ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329ABED2B3F1AFE00CD0ED0 /* Preview Assets.xcassets in Resources */,
+				4329ABEA2B3F1AFE00CD0ED0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4329ABDC2B3F1AFC00CD0ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329ABE82B3F1AFC00CD0ED0 /* ContentView.swift in Sources */,
+				4329ABE62B3F1AFC00CD0ED0 /* HomeTempApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4329ABE32B3F1AFC00CD0ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4329ABDF2B3F1AFC00CD0ED0 /* HomeTemp Watch App */;
+			targetProxy = 4329ABE22B3F1AFC00CD0ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4329ABEE2B3F1AFE00CD0ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4329ABEF2B3F1AFE00CD0ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4329ABF12B3F1AFE00CD0ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeTemp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P7N73XRW62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeTemp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thormountaincode.HomeTemp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		4329ABF22B3F1AFE00CD0ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeTemp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P7N73XRW62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeTemp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thormountaincode.HomeTemp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		4329ABF52B3F1AFE00CD0ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7N73XRW62;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeTemp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thormountaincode.HomeTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4329ABF62B3F1AFE00CD0ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7N73XRW62;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeTemp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thormountaincode.HomeTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4329ABD72B3F1AFB00CD0ED0 /* Build configuration list for PBXProject "HomeTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4329ABEE2B3F1AFE00CD0ED0 /* Debug */,
+				4329ABEF2B3F1AFE00CD0ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4329ABF02B3F1AFE00CD0ED0 /* Build configuration list for PBXNativeTarget "HomeTemp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4329ABF12B3F1AFE00CD0ED0 /* Debug */,
+				4329ABF22B3F1AFE00CD0ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4329ABF42B3F1AFE00CD0ED0 /* Build configuration list for PBXNativeTarget "HomeTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4329ABF52B3F1AFE00CD0ED0 /* Debug */,
+				4329ABF62B3F1AFE00CD0ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4329ABD42B3F1AFB00CD0ED0 /* Project object */;
+}
